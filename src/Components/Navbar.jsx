@@ -3,6 +3,7 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import logo from "../assets/logo.png";
 import { navItems } from "../constants";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -58,7 +59,8 @@ const Navbar = () => {
               <ul>
                 {navItems.map((item, index) => (
                   <li className=" py-4" key={index}>
-                    <a href={item.href}> {item.label} </a>
+                    {/* <a href= {item.href}> {item.label} </a> */}
+                    <Link to={item.href}> {item.label} </Link>
                   </li>
                 ))}
               </ul>
