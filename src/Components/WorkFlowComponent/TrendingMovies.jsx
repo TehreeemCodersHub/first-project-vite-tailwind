@@ -59,7 +59,7 @@ const TrendingMovies = () => {
               <div className=" trending__banner-desc  grid grid-cols-3">
                 <div className="col-span-1">
                   <h3 className="  text-lg  text-neutral-700 text-end font-bold ">
-                    I Am The Luna
+                    I Am The Luna ok bata
                   </h3>
                 </div>
                 <div className="col-span-1"></div>
