@@ -19,11 +19,33 @@ import popularMoviesFour from "../assets/GoodNovelPicture/popularFour.jpg";
 import popularMoviesFive from "../assets/GoodNovelPicture/popularFive.jpg";
 import popularMoviesSix from "../assets/GoodNovelPicture/popularSix.jpg";
 
+export const socialMediaNavbar = [
+  {
+    label: "About",
+    href: "/",
+  },
+  {
+    label: "AI Tools",
+    href: "/",
+  },
+  {
+    label: "APIS",
+    href: "/",
+  },
+  {
+    label: "Pricing",
+    href: "/",
+  },
+  {
+    label: "Blogs",
+    href: "/",
+  },
+];
+
 export const navItems = [
   { label: "Home", href: "/" },
   { label: "Features", href: "features" },
   { label: "Workflow", href: "work-flow" },
-  // { label: "Pricing", href: "#" },
   { label: "Testimonials", href: "#" },
 ];
 
@@ -54,11 +76,6 @@ export const goodNovelNavItems = [
     href: "/",
   },
 ];
-// export const rightSideMenu = [
-//     lablel: "Library",
-//     lablel: "English"
-
-// ]
 
 export const popularMovies = [
   {
